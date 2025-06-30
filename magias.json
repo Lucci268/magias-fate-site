@@ -1,13 +1,32 @@
 
 [
   {
-    "nome": "Sacred Barrier",
-    "categoria": "Igreja",
-    "tipo": "Defensiva",
-    "custo": "5 Prana",
-    "alcance": "Área (10 metros)",
-    "tempo_conjuracao": "Ação",
-    "duracao": "10 minutos",
-    "descricao": "Cria uma barreira sagrada que impede entidades malignas, demônios ou espíritos hostis de atravessar."
-  }
+    "nome": "Reforço",
+    "categoria": "Básica",
+    "tipo": "Suporte",
+    "custo": "1 Mana",
+    "alcance": "Pessoal",
+    "tempo_conjuracao": "Ação Bônus/Reação",
+    "duracao": "1 Turno",
+    "descricao": "Reforça seu corpo ou algum objeto que esteja portando, no qual reforçando seu corpo, adiciona +1 em Força, Destreza e Constituição e seu Modificador de Magia como dano adicional a dados desarmado. Se usar em um objeto, adiciona um HP temporário nele igual a Magia vezes 5, fora o Modificador de Magia como dano adicional."
+  },
+  {
+     "nome": "Projeção",
+    "categoria": "Básica",
+    "tipo": "Suporte",
+    "custo": "2 Mana",
+    "alcance": "Pessoal",
+    "tempo_conjuracao": "Ação Bônus",
+    "duracao": "1 Rodada",
+    "descricao": "Pode criar uma réplica fraca e inferior de algum objeto temporariamente, no qual terá atributos iguais ao original menos o HP que será só metade."
+  },
+  {
+   "nome": "Reforço",
+    "categoria": "Básica",
+    "tipo": "Suporte",
+    "custo": "1 Mana",
+    "alcance": "Pessoal",
+    "tempo_conjuracao": "Ação Bônus/Reação",
+    "duracao": "1 Turno",
+    "descricao":
 ]
