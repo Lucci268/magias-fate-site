@@ -7,28 +7,31 @@ fetch('magias.json')
         const categoria = document.getElementById('categoria');
 
         function renderizarTabela(filtroNome = '', filtroCategoria = '') {
-            tabela.innerHTML = '';
-            data
-                .filter(magia => {
-                    const nomeMatch = magia.nome.toLowerCase().includes(filtroNome.toLowerCase());
-                    const categoriaMatch = filtroCategoria === '' || magia.categoria === filtroCategoria;
-                    return nomeMatch && categoriaMatch;
-                })
-                .forEach(magia => {
-                    const linha = `
-                        <tr>
-                            <td>${magia.nome}</td>
-                            <td>${magia.categoria}</td>
-                            <td>${magia.tipo}</td>
-                            <td>${magia.custo}</td>
-                            <td>${magia.alcance}</td>
-                            <td>${magia.tempo_conjuracao}</td>
-                            <td>${magia.duracao}</td>
-                            <td>${magia.descricao}</td>
-                        </tr>`;
-                    tabela.innerHTML += linha;
-                });
-        }
+    tabela.innerHTML = '';
+    data
+        .filter(magia => {
+            const nomeMatch = magia.nome.toLowerCase().includes(filtroNome.toLowerCase());
+            const categorias = Array.isArray(magia.categoria) ? magia.categoria : [magia.categoria];
+            const categoriaMatch = filtroCategoria === '' || categorias.includes(filtroCategoria);
+            return nomeMatch && categoriaMatch;
+        })
+        .forEach(magia => {
+            const categorias = Array.isArray(magia.categoria) ? magia.categoria.join(', ') : magia.categoria;
+            const linha = `
+                <tr>
+                    <td>${magia.nome}</td>
+                    <td>${categorias}</td>
+                    <td>${magia.tipo}</td>
+                    <td>${magia.custo}</td>
+                    <td>${magia.alcance}</td>
+                    <td>${magia.tempo_conjuracao}</td>
+                    <td>${magia.duracao}</td>
+                    <td>${magia.descricao}</td>
+                </tr>`;
+            tabela.innerHTML += linha;
+        });
+}
+
 
         search.addEventListener('input', () => {
             renderizarTabela(search.value, categoria.value);
