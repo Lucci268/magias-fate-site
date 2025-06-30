@@ -229,5 +229,55 @@
     "tempo_conjuracao": "Ação Padrão/Reação",
     "duracao": "Instantânea",
     "descricao": "Magia defensiva que bloqueia um golpe, pode ser usada como reação e a defesa tem 25 de HP e 11 de CA, caso quebre, reduz em 1/4 o dano recebido."
-  }
+  },
+  {
+    "nome": "Vogel",
+    "categoria": ["Alquimia"],
+    "tipo": "Suporte",
+    "custo": "2 Turnos",
+    "alcance": "Modificador de Magia em dobro",
+    "tempo_conjuracao": "Ação Padrão",
+    "duracao": "Contínua",
+    "descricao": "Faz o construto assumir a forma de um pássaro de qualquer tamanho, no máximo podendo ter a altura de um falcão ou abutre. Esse pássaro pode agir por conta própria e atuar como olhos e ouvidos, além de disparar rajadas mágicas que causam 1d4 de dano luminoso."
+  },
+  {
+    "nome": "Waffe",
+    "categoria": ["Alquimia"],
+    "tipo": "Ofensiva",
+    "custo": "3 Turnos",
+    "alcance": "Modificador de Magia em dobro",
+    "tempo_conjuracao": "Ação Padrão",
+    "duracao": "Contínua",
+    "descricao": "Faz um construto na forma de uma grande arma que pode ser lançada ou usada em combate dependendo da vontade do usuário, onde o dano vai ser igual a da arma que está imitando (Tabela de Armas DnD) mas luminoso. Pode fazer somente armas brancas."
+  },
+  {
+    "nome": "Naht",
+    "categoria": ["Alquimia"],
+    "tipo": "Suporte",
+    "custo": "Variável",
+    "alcance": "Pessoal/Toque",
+    "tempo_conjuracao": "Ação Padrão",
+    "duracao": "Concentrada",
+    "descricao": "Faz construtos internos no próprio corpo ou de aliados para fechar feridas e consertar danos internos como ossos quebrados e órgãos danificados. Recupera HP igual a 1/5 da vida máxima por turno que for consumir usando tal magia."
+  },
+  {
+    "nome": "Verteidigung",
+    "categoria": ["Alquimia"],
+    "tipo": "Suporte",
+    "custo": "Nulo",
+    "alcance": "Pessoal",
+    "tempo_conjuracao": "Ação Padrão/Reação",
+    "duracao": "Instantânea",
+    "descricao": "Faz um construto que pode defender a si mesmo e aliados próximos a 1 quadrado, onde essa proteção tem 12 de CA e 20 de HP. Pode ser feito como reação por vezes igual ao Modificador de Magia por combate. Se for utilizar construtos já existentes, estes não serão contabilizados nas vezes disponíveis. Essa defesa dura somente no turno que for usada e não pode ser usada em turnos consecutivos."
+  },
+  {
+   "nome": "Tier",
+    "categoria": ["Alquimia"],
+    "tipo": "Ofensiva",
+    "custo": "2 turnos",
+    "alcance": "Pessoal",
+    "tempo_conjuracao": "Ação Padrão",
+    "duracao": "Contínua",
+    "descricao": "Faz um construto de um familiar de combate direto (Tamanho mínimo de um cachorro, máximo de um urso). Esse familiar tem o dobro de HP do usuário e 12 de CA, com seus ataques causando 2d4+Modificador de Magia de dano. Consome 2 turnos para ser feito."
+  }, 
 ]
