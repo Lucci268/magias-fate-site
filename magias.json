@@ -2,17 +2,17 @@
 [
   {
     "nome": "Reforço",
-    "categoria": "Básica",
+    "categoria": ["Básica"],
     "tipo": "Suporte",
     "custo": "1 Mana",
     "alcance": "Pessoal",
     "tempo_conjuracao": "Ação Bônus/Reação",
-    "duracao": "1 Turno",
+    "duracao": "Instantânea",
     "descricao": "Reforça seu corpo ou algum objeto que esteja portando, no qual reforçando seu corpo, adiciona +1 em Força, Destreza e Constituição e seu Modificador de Magia como dano adicional a dados desarmado. Se usar em um objeto, adiciona um HP temporário nele igual a Magia vezes 5, fora o Modificador de Magia como dano adicional."
   },
   {
-     "nome": "Projeção",
-    "categoria": "Básica",
+    "nome": "Projeção",
+    "categoria": ["Básica"],
     "tipo": "Suporte",
     "custo": "2 Mana",
     "alcance": "Pessoal",
@@ -21,12 +21,213 @@
     "descricao": "Pode criar uma réplica fraca e inferior de algum objeto temporariamente, no qual terá atributos iguais ao original menos o HP que será só metade."
   },
   {
-   "nome": "Reforço",
-    "categoria": "Básica",
+    "nome": "Cura",
+    "categoria": ["Básica"],
+    "tipo": "Suporte",
+    "custo": "2 Mana",
+    "alcance": "Pessoal/Toque",
+    "tempo_conjuracao": "Ação Padrão",
+    "duracao": "Concentrada",
+    "descricao": "Pode curar feridas em um ser ou objeto, restaurando HP igual ao Modificador de Magia em dobro por turno em uso, devendo se concentrar para usar por turnos consecutivos."
+  },
+  {
+    "nome": "Barreira",
+    "categoria": ["Básica"],
+    "tipo": "Suporte",
+    "custo": "5 Mana",
+    "alcance": "Local",
+    "tempo_conjuracao": "1 Rodada pra cada Selo",
+    "duracao": "Contínua",
+    "descricao": "O usuário limita o local em selos para criar um campo especial, no qual por cada turno gasto colocando selos, pode escolher um efeito para ser ativo quando alguém adentrar o local determinado, podendo ser detectar intenções, bloquear sons e etc."
+  },
+  {
+    "nome": "Gandr",
+    "categoria": ["Básica"],
+    "tipo": "Ofensiva",
+    "custo": "3 Mana",
+    "alcance": "Modificador de Magia em dobro",
+    "tempo_conjuracao": "Ação Padrão",
+    "duracao": "Instantânea",
+    "descricao": "Uma maldição rúnica simmples mas poderosa, no qua funciona como um projétil e causa 1d4+Magia de dano se acertar o oponente."
+  },
+  {
+    "nome": "Geis",
+    "categoria": ["Básica"],
     "tipo": "Suporte",
     "custo": "1 Mana",
+    "alcance": "Toque",
+    "tempo_conjuracao": "Ação Padrão",
+    "duracao": "Contínua",
+    "descricao": "Uma maldição de pacto que pode ser formada entre dois ou mais indivíduos que aceitem voluntariamente a mesma, no qual funciona como um acordo com punições severas se as cláusulas do mesmo forem quebradas."
+  },
+  {
+    "nome": "Bajiquan",
+    "categoria": ["Igreja"],
+    "tipo": "Suporte",
+    "custo": "Nulo",
     "alcance": "Pessoal",
-    "tempo_conjuracao": "Ação Bônus/Reação",
-    "duracao": "1 Turno",
-    "descricao":
+    "tempo_conjuracao": "Ação Livre",
+    "duracao": "Passiva",
+    "descricao": "É um estilo de luta próprio de membros da igreja, no qual possuem o dano desarmado aumentado para d4 e redução passiva do crítico de combate corpo-a-corpo."
+  },
+  {
+    "nome": "Black Keys",
+    "categoria": ["Igreja"],
+    "tipo": "Ofensivo",
+    "custo": "Nulo",
+    "alcance": "Toque/Modificador de Habilidade em dobro",
+    "tempo_conjuracao": "Ação Padrão/Reação",
+    "duracao": "Instantânea",
+    "descricao": "São lâminas especiais portadas por membros da igreja, no qual o dano base de uma é 1d4+Habilidade, porém se o oponente estiver castando magia durante o uso, o dano será em dobro, sendo capaz de afetar Servos. Pode portar no máximo 4 e perder uma permanentemente ao usar como reação para bloquear um ataque mágico direto."
+  },
+  {
+    "nome": "Set",
+    "categoria": ["Básica", "Igreja"],
+    "tipo": "Suporte",
+    "custo": "2 Mana",
+    "alcance": "Pessoal",
+    "tempo_conjuracao": "Reação",
+    "duracao": "Instantânea",
+    "descricao": "Ao disparar projéteis não mágicos, pode usar dessa magia para os redirecionar e fortalecer, gastando a sua reação para isso e concedendo vantagem no acerto e giro de dano de tais projéteis."
+  },
+  {
+    "nome": "Rito de Batismo",
+    "categoria": ["Igreja"],
+    "tipo": "Suporte",
+    "custo": "7 Mana",
+    "alcance": "Pessoal",
+    "tempo_conjuracao": "! Rodada",
+    "duracao": "Concentrada",
+    "descricao": "Pode fazer um ritual de batismo que exorciza espíritos e seres malignos, no qual se usado contra uma entidade puramente maligna e sem ligações terrenas, a matará na hora. Pode utilizar como forma para eliminar invocações de Magos e Servos presentes no local na hora (Não afeta servos diretamente, apenas dá desvantagem a eles pelo resto do combate)."
+  },
+  {
+    "nome": "Âmbar",
+    "categoria": ["Jóias"],
+    "tipo": "Ofensiva",
+    "custo": "140 Ienes",
+    "alcance": "Modificador de Magia em dobro",
+    "tempo_conjuracao": "Ação Padrão",
+    "duracao": "Instantânea",
+    "descricao": "Magia elétrica que causa 2d4+Modificador de Magia de Dano Elétrico."
+  },
+  {
+    "nome": "Ametista",
+    "categoria": ["Jóias"],
+    "tipo": "Suporte",
+    "custo": "200 Ienes",
+    "alcance": "Local",
+    "tempo_conjuracao": "Ação Padrão",
+    "duracao": "Instantânea",
+    "descricao": "Rastreamento de inimigos em um local (Forma de corujas (10 HP/5 CA) ou pelo solo)."
+  },
+  {
+    "nome": "Olho de Gato",
+    "categoria": ["Jóias"],
+    "tipo": "Suporte",
+    "custo": "350 Ienes",
+    "alcance": "Modificador de Magia em dobro",
+    "tempo_conjuracao": "Ação Padrão",
+    "duracao": "Instantânea",
+    "descricao": "Pode imobilizar um alvo por 1 turno, uso único."
+  },
+  {
+    "nome": "Esmeralda",
+    "categoria": ["Jóias"],
+    "tipo": "Suporte",
+    "custo": "280 Ienes",
+    "alcance": "Modificador de Magia",
+    "tempo_conjuracao": "Ação Bônus",
+    "duracao": "Instantânea",
+    "descricao": "Magia de vento  que aumenta o Deslocamento de si mesmo ou aliados igual ao Modificador de Magia."
+  },
+  {
+    "nome": "Cordierita",
+    "categoria": ["Jóias"],
+    "tipo": "Suporte",
+    "custo": "230 Ienes",
+    "alcance": "Local",
+    "tempo_conjuracao": "Ação Padrão",
+    "duracao": "Instantânea",
+    "descricao": "Permite localizar energia mágica, feitiços e ilusões em um local."
+  },
+  {
+    "nome": "Jade",
+    "categoria": ["Jóias"],
+    "tipo": "Suporte",
+    "custo": "160 Ienes",
+    "alcance": "Pessoal",
+    "tempo_conjuracao": "Ação Padrão/Reação",
+    "duracao": "Instantânea",
+    "descricao": "Cria um familiar pássaro (15  HP/8 CA) que pode atacar (1d4) e bloquear um golpe inimigo."
+  },
+  {
+    "nome": "Malaquita",
+    "categoria": ["Jóias"],
+    "tipo": "Suporte",
+    "custo": "135 Ienes",
+    "alcance": "Toque",
+    "tempo_conjuracao": "Ação Padrão",
+    "duracao": "Cena",
+    "descricao": "Pode identificar mentiras e golpes mentais em um alvo, enxergar através das emoções."
+  },
+  {
+    "nome": "Obsidiana",
+    "categoria": ["Jóias"],
+    "tipo": "Ofensiva",
+    "custo": "220 Ienes",
+    "alcance": "Modificador de Magia em dobro",
+    "tempo_conjuracao": "Ação Padrão",
+    "duracao": "Cena",
+    "descricao": "Ofusca a visão de inimigos em 1 área, causando desvantagem e distração por 1d2 de turnos."
+  },
+  {
+    "nome": "Rubi",
+    "categoria": ["Jóias"],
+    "tipo": "Ofensiva",
+    "custo": "480 Ienes",
+    "alcance": "Modificador de Magia em dobro",
+    "tempo_conjuracao": "Ação Padrão",
+    "duracao": "Instantânea",
+    "descricao": "Cria feitiço de fogo que causa 2d6+Modificador de Magia. Se usar mais de 1, pode criar correntes de fogo para imobilização por 1d3 de turnos de um alvo."
+  },
+  {
+    "nome": "Rubi",
+    "categoria": ["Jóias"],
+    "tipo": "Ofensiva",
+    "custo": "480 Ienes",
+    "alcance": "Modificador de Magia em dobro",
+    "tempo_conjuracao": "Ação Padrão",
+    "duracao": "Instantânea",
+    "descricao": "Cria feitiço de fogo que causa 2d6+Modificador de Magia. Se usar mais de 1, pode criar correntes de fogo para imobilização por 1d3 de turnos de um alvo."
+  },
+  {
+    "nome": "Safira",
+    "categoria": ["Jóias"],
+    "tipo": "Suporte",
+    "custo": "500 Ienes",
+    "alcance": "Pessoal",
+    "tempo_conjuracao": "Ação Bônus",
+    "duracao": "Instantânea",
+    "descricao": "Garante acerto automático de algum feitiço, além de dobrar o dano ou efeito do mesmo."
+  },
+  {
+    "nome": "Topázio",
+    "categoria": ["Jóias"],
+    "tipo": "Ofensiva",
+    "custo": "310 Ienes",
+    "alcance": "Modificador de Magia em dobro",
+    "tempo_conjuracao": "Ação Padrão/Reação",
+    "duracao": "Instantânea",
+    "descricao": "Magia de Luz que causa 4d4 de dano em área 5 metros a inimigos no alcance."
+  },
+  {
+    "nome": "Esmeralda II",
+    "categoria": ["Jóias"],
+    "tipo": "Suporte",
+    "custo": "164 Ienes",
+    "alcance": "Modificador de Magia em dobro",
+    "tempo_conjuracao": "Ação Padrão/Reação",
+    "duracao": "Instantânea",
+    "descricao": "Magia defensiva que bloqueia um golpe, pode ser usada como reação e a defesa tem 25 de HP e 11 de CA, caso quebre, reduz em 1/4 o dano recebido."
+  }
 ]
