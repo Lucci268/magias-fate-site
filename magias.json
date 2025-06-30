@@ -1,0 +1,13 @@
+
+[
+  {
+    "nome": "Sacred Barrier",
+    "categoria": "Igreja",
+    "tipo": "Defensiva",
+    "custo": "5 Prana",
+    "alcance": "Área (10 metros)",
+    "tempo_conjuracao": "Ação",
+    "duracao": "10 minutos",
+    "descricao": "Cria uma barreira sagrada que impede entidades malignas, demônios ou espíritos hostis de atravessar."
+  }
+]

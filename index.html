@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magias - Fate/Stay Night</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Magias - Fate/Stay Night</h1>
+    </header>
+
+    <div class="filtros">
+        <input type="text" id="search" placeholder="🔍 Buscar magia...">
+
+        <select id="categoria">
+            <option value="">Todas as Categorias</option>
+            <option value="Básica">Básica</option>
+            <option value="Jóias">Jóias</option>
+            <option value="Alquimia">Alquimia</option>
+            <option value="Insetos">Insetos</option>
+            <option value="Dimensional">Dimensional</option>
+            <option value="Elemental">Elemental</option>
+            <option value="Avançada">Avançada</option>
+            <option value="Família">Família</option>
+            <option value="Igreja">Igreja</option>
+        </select>
+    </div>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Categoria</th>
+                <th>Tipo</th>
+                <th>Custo</th>
+                <th>Alcance</th>
+                <th>Tempo</th>
+                <th>Duração</th>
+                <th>Descrição</th>
+            </tr>
+        </thead>
+        <tbody id="tabela-magias"></tbody>
+    </table>
+
+    <footer>
+        <p>Site criado por [Seu Nome] | Inspirado no universo Fate/Stay Night</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
