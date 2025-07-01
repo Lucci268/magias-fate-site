@@ -280,4 +280,224 @@
     "duracao": "Contínua",
     "descricao": "Faz um construto de um familiar de combate direto (Tamanho mínimo de um cachorro, máximo de um urso). Esse familiar tem o dobro de HP do usuário e 12 de CA, com seus ataques causando 2d4+Modificador de Magia de dano. Consome 2 turnos para ser feito."
   }, 
+  {
+    "nome": "Parasyte",
+    "categoria": ["Inseto"],
+    "tipo": "Suporte",
+    "custo": "Nulo",
+    "alcance": "Pessoal",
+    "tempo_conjuracao": "1 Rodada",
+    "duracao": "Passiva",
+    "descricao": "Você pode recuperar mana com mais facilidade através dos Insetos de Selo, onde eles podem ser controlados a distância e drenar o sangue de outros seres e trazer para ti, reduz pela metade o tempo necessário para descanso."
+  }, 
+  {
+    "nome": "Doppelganger",
+    "categoria": ["Inseto"],
+    "tipo": "Suporte",
+    "custo": "5 de Mana",
+    "alcance": "Pessoal",
+    "tempo_conjuracao": "Ação Padrão",
+    "duracao": "Contínua",
+    "descricao": "Cria um clone feito de vários insetos mas com aparência idêntica a sua ou de alguém que você queira. Eles explodem ao seu comando e causam 3d8+3 de dano venenoso, colocando um veneno que fica por 3 turnos e causa 1d4 por turno envenenando."
+  }, 
+  {
+    "nome": "Nightmare Bug",
+    "categoria": ["Inseto"],
+    "tipo": "Ofensivo",
+    "custo": "7 de Mana",
+    "alcance": "Pessoal",
+    "tempo_conjuracao": "Ação Padrão",
+    "duracao": "Contínua",
+    "descricao": "Um inseto que emite um pólen e som relaxante que faz todos realizarem um teste de Magia (CD 14) e caso falhem, ficam sonolentos e com desvantagem em testes. Os testes terão que se feitos a cada turno enquanto o inseto estiver ativo, sendo que ele tem 20 de HP e 9 CA para ser destruído."
+  },
+  {
+    "nome": "Brute Worm",
+    "categoria": ["Inseto"],
+    "tipo": "Ofensivo",
+    "custo": "5 de Mana",
+    "alcance": "Pessoal",
+    "tempo_conjuracao": "Ação Padrão",
+    "duracao": "Contínua",
+    "descricao": "Invoca até 3 insetos voadores (15 HP e 7 CA cada) que disparam ferrões mágicos que causam 1d8+4 de dano."
+  },
+  {
+    "nome": "Guardian Swarm",
+    "categoria": ["Inseto"],
+    "tipo": "Suporte",
+    "custo": "5 de Mana",
+    "alcance": "Pessoal",
+    "tempo_conjuracao": "Ação Padrão",
+    "duracao": "Contínua",
+    "descricao": "Usa como reação, invocando vários insetos que bloqueiam um golpe que iria te atingir, causando 2d12+6 de dano como consequência. Pode ser usado 2 vezes por combate."
+  }, 
+  {
+    "nome": "Madness Enhancement",
+    "categoria": ["Família", "Avançada"],
+    "tipo": "Suporte",
+    "custo": "1/3 de Mana",
+    "alcance": "Pessoal",
+    "tempo_conjuracao": "1 Rodada",
+    "duracao": "Instantânea",
+    "descricao": "Quando for conjurar seu servo, pode usar dessa magia para tentar fortalecer o mesmo mas ficar mais independente, deve girar um teste de Magia contra um de Resistência do Servo. Caso passe, ele virá com a Habilidade Encantamento da Loucura e seus atributos físicos aumentados em 1 Rank (Se ele tiver uma versão Alter, a invocará no lugar). Se falhar, terá um Selo de Comando a menos."
+  },
+  {
+    "nome": "Book of False Attendant",
+    "categoria": ["Família"],
+    "tipo": "Suporte",
+    "custo": "1 Selo de Comando",
+    "alcance": "Pessoal",
+    "tempo_conjuracao": "1 Rodada",
+    "duracao": "Contínua",
+    "descricao": "Pode fornecer controle limitado de um Servo, caso o Mestre permita de forma voluntária, através de um livro, podendo ter controle sobre o servo enquanto tiver com a posse de livro, porém reduzindo em 1 Rank os atributos desse Servo."
+  },
+  {
+    "nome": "Übergang",
+    "categoria": ["Dimensional"],
+    "tipo": "Suporte",
+    "custo": "2 de Mana",
+    "alcance": "Pessoal",
+    "tempo_conjuracao": "Ação Bônus",
+    "duracao": "Instantânea",
+    "descricao": "Cria pequenos deslocamentos em uma área a sua vista, podendo passar pequenos objetos ou até um braço, podendo criar 4 ao mesmo tempo (Cada 1 iria consumir 2% de Mana). Ataques feitos com esses deslocamentos tem vantagem e adicionam +5 de dano."
+  },
+  {
+    "nome": "Verschiebung",
+    "categoria": ["Dimensional"],
+    "tipo": "Suporte",
+    "custo": "7 de Mana",
+    "alcance": "Pessoal",
+    "tempo_conjuracao": "Ação Padrão/Reação",
+    "duracao": "Instantânea",
+    "descricao": "Cria uma grande área de deslocamento (7 metros), podendo trocar o chão da área pelo céu ou redirecionar ataques (Projéteis apenas, se acertar um teste de Magia contra o acerto)."
+  },
+  {
+    "nome": "Gegenwart",
+    "categoria": ["Dimensional"],
+    "tipo": "Suporte",
+    "custo": "5 de Mana",
+    "alcance": "Pessoal",
+    "tempo_conjuracao": "Ação Bônus",
+    "duracao": "Instantânea",
+    "descricao": "Pode ignorar o tempo de deslocamento necessário entre cenários do mapa, podendo simplesmente criar um deslocamento para si mesmo e aliados próximos."
+  },
+  {
+    "nome": "Marionette",
+    "categoria": ["Dimensional"],
+    "tipo": "Suporte",
+    "custo": "15 de Mana",
+    "alcance": "Toque",
+    "tempo_conjuracao": "1 Rodada",
+    "duracao": "Contínua",
+    "descricao": "Ao derrotar um inimigo, pode ao invés de o matar, deslocar sua alma para um fantoche, preservando as habilidades e tudo que o mesmo tinha em vida, mas agora sobre o seu controle por causa do corpo do fantoche (Pode criar 1 por jogo)."
+  },
+  {
+    "nome": "Reforço Edelfelt",
+    "categoria": ["Família", "Avançada"],
+    "tipo": "Suporte",
+    "custo": "2 Mana",
+    "alcance": "Pessoal",
+    "tempo_conjuracao": "Ação Bônus/Reação",
+    "duracao": "Instantânea",
+    "descricao": "Reforça seu corpo ou algum objeto que esteja portando, no qual reforçando seu corpo, adiciona Magia em Força, Destreza e Constituição e seu Modificador de Magia em dobro como dano adicional a dados desarmado. Se usar em um objeto, adiciona um HP temporário nele igual a Magia vezes 7, fora o Modificador de Magia em dobro como dano adicional."
+  },
+  {
+    "nome": "Projeção Edelfelt",
+    "categoria": ["Família", "Avançada"],
+    "tipo": "Suporte",
+    "custo": "4 Mana",
+    "alcance": "Pessoal",
+    "tempo_conjuracao": "Ação Bônus",
+    "duracao": "1 Rodada",
+    "descricao": "Pode criar uma réplica perfeita de algum objeto temporariamente (Exceto Fantasmas Nobres), no qual terá atributos iguais ao original e 1 dado adicional de dano."
+  },
+  {
+    "nome": "Cura Edelfelt",
+    "categoria": ["Família", "Avançada"],
+    "tipo": "Suporte",
+    "custo": "4 Mana",
+    "alcance": "Pessoal/Toque",
+    "tempo_conjuracao": "Ação Bônus",
+    "duracao": "Sustentada",
+    "descricao": "Pode curar feridas em um ser ou objeto, restaurando HP igual ao Modificador de Magia em triplo por turno em uso, gastando 2 de mana para manter a cura passiva por turnos consecutivos."
+  },
+  {
+    "nome": "Barreira Edelfelt",
+    "categoria": ["Família", "Avançada"],
+    "tipo": "Suporte",
+    "custo": "10 Mana",
+    "alcance": "Local",
+    "tempo_conjuracao": "1 Ação(Excluindo a Livre) pra cada Selo",
+    "duracao": "Contínua",
+    "descricao": "O usuário limita o local em selos para criar um campo especial, no qual por cada ação gasto colocando selos, pode escolher um efeito para ser ativo quando alguém adentrar o local determinado, podendo ser detectar intenções, bloquear sons e etc."
+  },
+  {
+    "nome": "Gandr Höher",
+    "categoria": ["Família", "Avançada"],
+    "tipo": "Ofensiva",
+    "custo": "6 Mana",
+    "alcance": "Modificador de Magia em triplo",
+    "tempo_conjuracao": "Ação Padrão",
+    "duracao": "Instantânea",
+    "descricao": "Uma maldição rúnica simmples mas poderosa, no qua funciona como um projétil e causa 3d4+Magia de dano se acertar o oponente."
+  },
+  {
+    "nome": "Star Bullet",
+    "categoria": ["Família"],
+    "tipo": "Ofensiva",
+    "custo": "3 Mana",
+    "alcance": "Modificador de Magia em dobro",
+    "tempo_conjuracao": "Ação Padrão",
+    "duracao": "Instantânea",
+    "descricao": "Dispara projéteis na forma de estrela, com cada um causando 1d2+Magia de dano e podendo disparar uma quantia igual ao Modificador de Magia em uma única ação de ataque."
+  },
+  {
+    "nome": "Gravity Field",
+    "categoria": ["Família"],
+    "tipo": "Suporte",
+    "custo": "2 Mana",
+    "alcance": "Pessoal",
+    "tempo_conjuracao": "Ação Bônus",
+    "duracao": "Sustentada",
+    "descricao": "Cria um pequeno campo gravitacional fraco ao seu redor, lhe impedindo de ser derrubado e podendo se adaptar a superfícies, como também aumenta em 1 a CA, mas deve gastar 1 de mana por turno que for manter."
+  },
+  {
+    "nome": "Comet Change",
+    "categoria": ["Família"],
+    "tipo": "Ofensiva",
+    "custo": "5 Mana",
+    "alcance": "Pessoal",
+    "tempo_conjuracao": "Reação",
+    "duracao": "Instantânea",
+    "descricao": "Ao receber um golpe projétil, pode girar um teste de Magia contra o acerto, e se ganhar, poderá devolver o ataque com o dano original+5 (Não pode usar contra Fantasmas Nobres)."
+  },
+  {
+    "nome": "Prophecy",
+    "categoria": ["Família"],
+    "tipo": "Suporte",
+    "custo": "10 Mana",
+    "alcance": "Jogo",
+    "tempo_conjuracao": "1 Rodada",
+    "duracao": "Concentrada",
+    "descricao": "1 vez por Guerra, pode usar das estrelas como guia para saber a localização exata de um oponente cujo você já tenha visto ou enfrentado antes, podendo observar o que ele faz enquanto estiver se concentrando no uso da magia, independente da distância e ocultações que ele tenha."
+  },
+  {
+    "nome": "Big Bang",
+    "categoria": ["Família"],
+    "tipo": "Ofensiva",
+    "custo": "Nulo",
+    "alcance": "Modificador de Magia vezes 5",
+    "tempo_conjuracao": "Ação Completa",
+    "duracao": "Instantânea",
+    "descricao": "Uma magia poderosa mas suicida, no qual o usuário canaliza toda sua magia para causar uma explosão cósmica, onde irá causar dano igual a 2d8+Magia por cada 5 de HP perdido. Morre no fim da Magia."
+  },
+  {
+    "nome": "Anpassen",
+    "categoria": ["Família"],
+    "tipo": "Suporte",
+    "custo": "Nulo",
+    "alcance": "Pessoal",
+    "tempo_conjuracao": "Ação Livre",
+    "duracao": "Passiva",
+    "descricao": "Qualquer Yggdmillennia ao usar equipamentos modernos, adiciona o seu Modificador de Magia como dano adicional e valor adicional de testes envolvendo os mesmos."
+  },  
 ]
