@@ -282,7 +282,7 @@
   }, 
   {
     "nome": "Doppelganger",
-    "categoria": ["Insetos"],
+    "categoria": ["Inseto"],
     "tipo": "Suporte",
     "custo": "5 de Mana",
     "alcance": "Pessoal",
@@ -292,7 +292,7 @@
   }, 
   {
     "nome": "Nightmare Bug",
-    "categoria": ["Insetos"],
+    "categoria": ["Inseto"],
     "tipo": "Ofensivo",
     "custo": "7 de Mana",
     "alcance": "Pessoal",
@@ -302,7 +302,7 @@
   },
   {
     "nome": "Brute Worm",
-    "categoria": ["Insetos"],
+    "categoria": ["Inseto"],
     "tipo": "Ofensivo",
     "custo": "5 de Mana",
     "alcance": "Pessoal",
@@ -312,7 +312,7 @@
   },
   {
     "nome": "Guardian Swarm",
-    "categoria": ["Insetos"],
+    "categoria": ["Inseto"],
     "tipo": "Suporte",
     "custo": "5 de Mana",
     "alcance": "Pessoal",
