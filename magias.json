@@ -191,16 +191,6 @@
     "descricao": "Cria feitiço de fogo que causa 2d6+Modificador de Magia. Se usar mais de 1, pode criar correntes de fogo para imobilização por 1d3 de turnos de um alvo."
   },
   {
-    "nome": "Rubi",
-    "categoria": ["Jóias"],
-    "tipo": "Ofensiva",
-    "custo": "480 Ienes",
-    "alcance": "Modificador de Magia em dobro",
-    "tempo_conjuracao": "Ação Padrão",
-    "duracao": "Instantânea",
-    "descricao": "Cria feitiço de fogo que causa 2d6+Modificador de Magia. Se usar mais de 1, pode criar correntes de fogo para imobilização por 1d3 de turnos de um alvo."
-  },
-  {
     "nome": "Safira",
     "categoria": ["Jóias"],
     "tipo": "Suporte",
