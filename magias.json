@@ -272,7 +272,7 @@
   }, 
   {
     "nome": "Parasyte",
-    "categoria": ["Inseto"],
+    "categoria": ["Insetos"],
     "tipo": "Suporte",
     "custo": "Nulo",
     "alcance": "Pessoal",
@@ -282,7 +282,7 @@
   }, 
   {
     "nome": "Doppelganger",
-    "categoria": ["Inseto"],
+    "categoria": ["Insetos"],
     "tipo": "Suporte",
     "custo": "5 de Mana",
     "alcance": "Pessoal",
@@ -292,7 +292,7 @@
   }, 
   {
     "nome": "Nightmare Bug",
-    "categoria": ["Inseto"],
+    "categoria": ["Insetos"],
     "tipo": "Ofensivo",
     "custo": "7 de Mana",
     "alcance": "Pessoal",
@@ -302,7 +302,7 @@
   },
   {
     "nome": "Brute Worm",
-    "categoria": ["Inseto"],
+    "categoria": ["Insetos"],
     "tipo": "Ofensivo",
     "custo": "5 de Mana",
     "alcance": "Pessoal",
@@ -312,7 +312,7 @@
   },
   {
     "nome": "Guardian Swarm",
-    "categoria": ["Inseto"],
+    "categoria": ["Insetos"],
     "tipo": "Suporte",
     "custo": "5 de Mana",
     "alcance": "Pessoal",
