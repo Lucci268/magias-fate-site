@@ -11,7 +11,7 @@ fetch('magias.json')
     data
         .filter(magia => {
             const nomeMatch = magia.nome.toLowerCase().includes(filtroNome.toLowerCase());
-            const categorias = Array.isArray(magia.categoria) ? magia.categoria : [magia.categoria];
+            const categorias = Array.isArray(magia.categoria) ? magia.categoria.join(' / ') : magia.categoria;
             const categoriaMatch = filtroCategoria === '' || categorias.includes(filtroCategoria);
             return nomeMatch && categoriaMatch;
         })
