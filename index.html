@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Magias - Fate/Stay Night</title>
+  <title>Magias de Fate/Stay Night</title>
   <style>
     body {
       font-family: sans-serif;
@@ -16,9 +16,9 @@
       text-align: center;
       margin-bottom: 20px;
     }
-    input {
+    input, select {
       display: block;
-      margin: 0 auto 20px auto;
+      margin: 0 auto 10px auto;
       padding: 10px;
       width: 100%;
       max-width: 400px;
@@ -48,7 +48,20 @@
 </head>
 <body>
   <h1>Magias de Fate/Stay Night</h1>
+
   <input type="text" id="busca" placeholder="Buscar magia por nome..." />
+  <select id="filtroCategoria">
+    <option value="">Todas as categorias</option>
+    <option value="Básica">Básica</option>
+    <option value="Jóias">Jóias</option>
+    <option value="Alquimia">Alquimia</option>
+    <option value="Insetos">Insetos</option>
+    <option value="Dimensional">Dimensional</option>
+    <option value="Elemental">Elemental</option>
+    <option value="Avançada">Avançada</option>
+    <option value="Família">Família</option>
+    <option value="Igreja">Igreja</option>
+  </select>
 
   <div id="lista"></div>
 
@@ -58,23 +71,29 @@
     async function carregarMagias() {
       const res = await fetch("magias.json");
       todasMagias = await res.json();
-      mostrarMagias("");
+      mostrarMagias();
     }
 
-    function mostrarMagias(filtro) {
+    function mostrarMagias() {
+      const filtroNome = document.getElementById("busca").value.toLowerCase();
+      const filtroCategoria = document.getElementById("filtroCategoria").value;
+
       const lista = document.getElementById("lista");
       lista.innerHTML = "";
 
-      const magiasFiltradas = todasMagias.filter(m => 
-        m.nome.toLowerCase().includes(filtro.toLowerCase())
-      );
+      const magiasFiltradas = todasMagias.filter(m => {
+        const nomeMatch = m.nome.toLowerCase().includes(filtroNome);
+        const categorias = Array.isArray(m.categoria) ? m.categoria : [m.categoria];
+        const categoriaMatch = !filtroCategoria || categorias.includes(filtroCategoria);
+        return nomeMatch && categoriaMatch;
+      });
 
       for (const magia of magiasFiltradas) {
         const div = document.createElement("div");
         div.className = "magia";
         div.innerHTML = `
           <h2>${magia.nome}</h2>
-          <p class="categoria">Categoria: ${Array.isArray(magia.categoria) ? magia.categoria.join(' / ') : magia.categoria}</p>
+          <p class="categoria">Categoria: ${Array.isArray(magia.categoria) ? magia.categoria.join(" / ") : magia.categoria}</p>
           <p><strong>Tipo:</strong> ${magia.tipo}</p>
           <p><strong>Custo:</strong> ${magia.custo}</p>
           <p><strong>Alcance:</strong> ${magia.alcance}</p>
@@ -86,12 +105,12 @@
       }
     }
 
-    document.getElementById("busca").addEventListener("input", (e) => {
-      mostrarMagias(e.target.value);
-    });
+    document.getElementById("busca").addEventListener("input", mostrarMagias);
+    document.getElementById("filtroCategoria").addEventListener("change", mostrarMagias);
 
     carregarMagias();
   </script>
 </body>
 </html>
+
 
